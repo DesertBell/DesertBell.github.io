@@ -1,0 +1,194 @@
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+html,
+body,
+header,
+#intro{
+  height: 100%; }
+
+footer {
+  background-color: #312e2e;
+  height: 5em;
+}
+
+.top-nav-collapse {
+    background-color: #312e2e;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #312e2e;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #312e2e;
+    }
+}
+
+mark {
+  background-color: #ffbb33;
+}
+
+a:hover {
+  color: #ffbb33;
+}
+
+.nav-anchor {
+  padding-top: 100px;
+}
+
+/* Full Page Carousel itself
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Navbar animation*/
+/* Style the active class (and buttons on mouse-over) */
+.btn:hover {
+  background-color: #666;
+  color: #007bff;
+} 
+
+#topnav .navbar-nav li > a {
+	color: #666;
+	transition: background-color .2s, color .2s;
+	
+	&:hover,
+	&:focus {
+		background-color: #666;
+    color: #007bff;
+  }
+}
+
+#topnav .navbar-nav li.active > a {
+	background-color: #333;
+	color: #fff;
+}
+/*.navbar {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.top-nav-collapse {
+  background-color: #1C2331; }
+
+/* Adding color to the Navbar on mobile 
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331; } }
+
+/*About*/
+.about-section {
+  padding-top: 10em;
+  padding-bottom: 15em;
+}
+
+.about-social {
+  
+}
+
+/*Background*/  
+#intro {
+  background: url("../img/desertroad-min.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bus-icons {
+  text-shadow: 5px 5px 5px lightgray;
+}
+/*Skills*/
+.skills {
+
+  padding-bottom: 2em;
+}
+
+.icon-row {
+  margin-left: 1em;
+  margin-right: auto;
+}
+.social-icons a {
+  display: inline-table;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #ffbb33;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.dev-icons {
+  font-size: 3rem;
+}
+
+.dev-icons .list-inline-item {
+  color: #ffbb33;
+  text-shadow: 5px 5px 5px lightgray;
+}
+.fa-ul {
+  display: inline-block;
+  margin-left: 7em;
+}
+.checked-items {
+  display: block;
+  margin-bottom: 1em;
+}
+.fa-check {
+  color: #ffbb33;
+  text-shadow: 5px 5px 5px lightgray;
+
+}
+/*Education*/
+.ed-section {
+
+}
+blockquote {
+  position: relative;
+  width: 75%;
+  vertical-align: middle;
+  border-left: 8px solid #ffbb33;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  display: table;
+  text-shadow: 5px 5px 5px lightgray;
+}
+.mb-5 {
+  margin-bottom: 0em;
+}
+h4 {
+  font-weight: bold;
+  color: #413c3c;
+}
+.subheading {
+  font-style: italic; 
+}
+/*Contact*/
+.contact-section {
+  padding-bottom: 0em;
+  padding-top: 5em;
+}
+
+form {
+  justify-content: center;
+}
+
+
+ .icon {
+   color: #ffbb33;
+   text-shadow: 5px 5px 5px lightgray;
+ }
+ .fa-envelope:hover {
+   color: #007bff;
+ }
